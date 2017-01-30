@@ -1,0 +1,91 @@
+body, .container {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar  {
+  color: rgba()255, 255, 255, .85);
+  font-size: 0.9rem;
+  padding-top: .45rem;
+}
+
+
+.jumbotron {
+background-image: url("../img/Tarastation.jpg");
+background-size: cover;
+background-size: 100%;
+background-repeat:no-repeat;
+color: white;
+}
+
+.title {
+  background-color:rgba(0,0,0,0.1);
+  font-size: 4em;
+
+ }
+
+.lead {
+background-color:rgba(0,0,0,0.2);
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: 6px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.divider {
+  background-image: url("../img/cactus.jpg");
+  display: cover;
+  min-height: 70px;
+    
+}
+
+.nav-link {
+  color: darkblue;
+  font-size: 1.3em;
+}
+
+
+@media (min-width: 992px) {
+  .jumbotron-fluid {
+    min-height:900px;
+  }
+
+}
+
+
+@media (max-width: 480px) { 
+  .title {
+  background-color:transparent;
+  color: darkslategrey;
+  padding-top:10rem;
+  margin-top: 4rem;
+  text-align:center;
+  }
+  .lead {
+  text-align:center; 
+  }
+  .btn {
+  display:inherit;
+  margin:1.3em;
+  }
+/*
+  .jumbotron-fluid {
+  padding-bottom: -400px;
+ }
+*/
+
+
+@media (min-width: 992px) {
+  .list-group {
+    padding-left: 0;
+    margin-bottom: 0.9rem;
+}
+
+
+
+}
+
